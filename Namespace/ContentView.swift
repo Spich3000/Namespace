@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showDetail: Bool = false
+    
+    @Namespace private var namespace
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if showDetail {
+                DetailView(
+                    namespace: _namespace,
+                    showDetail: $showDetail)
+            } else {
+                Button("Show Detail") {
+                    withAnimation {
+                        showDetail.toggle()
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 

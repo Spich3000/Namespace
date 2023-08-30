@@ -11,6 +11,7 @@
 		A2D411772A9EC1CB00487D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D411762A9EC1CB00487D05 /* ContentView.swift */; };
 		A2D411792A9EC1CD00487D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D411782A9EC1CD00487D05 /* Assets.xcassets */; };
 		A2D4117C2A9EC1CD00487D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D4117B2A9EC1CD00487D05 /* Preview Assets.xcassets */; };
+		A2D411832A9EC2B800487D05 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D411822A9EC2B800487D05 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A2D411762A9EC1CB00487D05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2D411782A9EC1CD00487D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D4117B2A9EC1CD00487D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2D411822A9EC2B800487D05 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A2D411742A9EC1CB00487D05 /* NamespaceApp.swift */,
 				A2D411762A9EC1CB00487D05 /* ContentView.swift */,
+				A2D411822A9EC2B800487D05 /* DetailView.swift */,
 				A2D411782A9EC1CD00487D05 /* Assets.xcassets */,
 				A2D4117A2A9EC1CD00487D05 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D411772A9EC1CB00487D05 /* ContentView.swift in Sources */,
+				A2D411832A9EC2B800487D05 /* DetailView.swift in Sources */,
 				A2D411752A9EC1CB00487D05 /* NamespaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
