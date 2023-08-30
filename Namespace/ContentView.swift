@@ -15,15 +15,19 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            if showDetail {
-                DetailView(
-                    namespace: _namespace,
-                    showDetail: $showDetail)
-            } else {
-                Button("Show Detail") {
-                    withAnimation {
-                        showDetail.toggle()
-                    }
+            detailModalView
+        }
+    }
+    
+    @ViewBuilder private var detailModalView: some View {
+        if showDetail {
+            DetailView(
+                namespace: _namespace,
+                showDetail: $showDetail)
+        } else {
+            Button("Show Detail") {
+                withAnimation {
+                    showDetail.toggle()
                 }
             }
         }
